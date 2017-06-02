@@ -4,10 +4,9 @@ if (module.hot) {
 }
 
 // Bring in the sass file
-import './style/style.scss';
+import './scss/main.scss';
 // Get the URL to an image
 import codeURL from './images/code.png'
-
 
 const root = document.querySelector('#root');
 root.innerHTML = `<p>Hello webpack.</p>`;

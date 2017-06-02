@@ -1,0 +1,19 @@
+@mixin media-breakpoint-from($size) {
+  @media (min-width: #{map-get($breakpoints, $size)}) {
+    @content;
+  }
+}
+
+// USAGE:
+// @include media-breakpoint-from(md) {
+//   p {
+//     padding: 10px;
+//   }
+// }
+
+// PRODUCES:
+// @media (min-width: 768px) {
+//   p {
+//     padding: 10px;
+//   }
+// }
