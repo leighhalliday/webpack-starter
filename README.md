@@ -12,4 +12,4 @@ This is an app with webpack set up to handle SASS, ES6, and hot-reloading.
 
 - All of the JS, images, and SASS lives in the `/src` folder.
 - Images live in `/src/images`
-- SASS lives in `/src/style` and the main file is `/src/style/style.scss`
+- SASS lives in `/src/scss` and the main file is `/src/scss/main.scss`
